@@ -1,6 +1,8 @@
 package br.com.heiderlopes.pokedex.domain.entity
 
+import com.google.gson.annotations.SerializedName
+
 data class Pokemon(
-    val nome: String,
+    @SerializedName("") val nome: String,
     val urlImagem: String
 )
